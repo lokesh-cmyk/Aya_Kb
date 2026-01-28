@@ -1,0 +1,146 @@
+# ============================================
+# Knowledge Base RAG Backend - .gitignore
+# ============================================
+
+# ==================================
+# Environment & Secrets
+# ==================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ==================================
+# Python
+# ==================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================================
+# Virtual Environments
+# ==================================
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# ==================================
+# IDE & Editors
+# ==================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ==================================
+# Testing
+# ==================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==================================
+# Type Checking
+# ==================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==================================
+# Documentation
+# ==================================
+docs/_build/
+site/
+
+# ==================================
+# Logs
+# ==================================
+*.log
+logs/
+log/
+
+# ==================================
+# Data & Uploads
+# ==================================
+uploads/
+data/
+*.db
+*.sqlite3
+*.csv
+*.xlsx
+*.pdf
+
+# ==================================
+# Cache
+# ==================================
+.cache/
+cache/
+*.cache
+__pycache__/
+
+# ==================================
+# Docker
+# ==================================
+.docker/
+
+# ==================================
+# OS Files
+# ==================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==================================
+# Jupyter Notebooks
+# ==================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================================
+# Model Files (large)
+# ==================================
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+models/
